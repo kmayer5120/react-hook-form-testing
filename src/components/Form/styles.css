@@ -1,0 +1,36 @@
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #ededed;
+  padding: 5rem;
+  width: 20%;
+  border-radius: 10px;
+}
+
+label {
+  padding-top: 1rem;
+  color: #000000;
+}
+
+input {
+  width: 100%;
+}
+
+button {
+  color: white;
+  background-color: blue;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+}
+
+.errors {
+  color: red;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 1rem;
+}
